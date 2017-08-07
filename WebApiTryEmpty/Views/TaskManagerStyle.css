@@ -1,0 +1,166 @@
+﻿body {
+    background-color:#5DCEC6;
+}
+button {
+    margin:13px;
+}
+
+#MainContent {
+    width: 650px;
+    margin-left:200px;
+}
+
+#ResponseContent{
+    width: 600px;
+    margin: 5px;
+    padding: 18px;
+    border: 2px solid black;
+    background-color:#5FC0CE;
+}
+
+
+
+
+#AddNewTaskForm {
+    border: 3px solid black;
+    margin:5px;
+    background-color: #35D3A7;
+}
+
+#TaskTitle {
+    width: 600px;
+    border: 2px solid black;
+    padding:5px;
+    margin:10px;
+    font-weight: bold;
+}
+
+#TaskContent {
+    width: 600px;
+    height:200px;
+    border: 2px solid black;
+    padding:5px;
+    margin:10px;
+}
+
+#CancleButton {
+    float:right;
+}
+
+
+
+
+#UpdateTaskForm {
+    border: 3px solid black;
+    margin:5px;
+    background-color:#35D3A7;
+}
+
+
+#UpdateTaskTitle {
+    width: 550px;
+    border: 2px solid black;
+    padding:5px;
+    margin:10px;
+    font-weight: bold;
+}
+
+#UpdateTaskContent {
+    width: 550px;
+    height:200px;
+    border: 2px solid black;
+    padding:5px;
+    margin:10px;
+}
+
+#CloseUpdateFormButton {
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.taskView {
+    border: 3px solid black;
+    margin:5px;
+    padding-bottom: 20px;
+    background-color:#36BBCE;
+}
+
+.TaskTitle {
+    align-content:center;
+    float: left;
+    font-weight: bold;
+    width: 380px;
+    padding:5px;
+    margin:10px;
+    border: 2px solid black;
+    padding:5px;
+    background-color:#5DCEC6;
+}
+
+.TaskContent {
+    padding:10px;
+    margin:10px;
+    border: 2px solid black;
+    background-color:#5DCEC6;
+}
+
+.taskViewDate{
+    float: right;
+    margin-right: 5px;
+}
+
+
+
+
+
+#RegistrationForm{
+    margin-top:200px;
+    margin-left:500px;
+    width: 450px;
+    border: 1px solid black;
+    background-color:#35D3A7;
+}
+
+#RegistrationForm input{
+    padding:3px;
+    margin:5px;
+    border: 3px solid red;
+}
+
+#RegistrationForm .Ready{
+    border-color:greenyellow;
+}
+
+#CancleRegistrationButton{
+    float:right;
+}
+
+#LoginForm{
+    text-align:center;
+    margin-top:200px;
+    margin-left:500px;
+    width: 250px;
+    border: 1px solid black;
+    background-color:#35D3A7;
+}
+#LoginForm input{
+    padding:3px;
+    width: 228px;
+    margin:5px;
+    border: 2px solid black;
+}
+#Registration {
+    float:right;
+}

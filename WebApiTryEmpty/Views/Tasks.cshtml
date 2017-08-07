@@ -1,0 +1,38 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link rel="stylesheet" href="~/Views/TaskManagerStyle.css">
+    <script type="text/javascript" src="~/Scripts/jquery-3.1.1.js"></script>
+</head>
+<body>
+    <div id="MainContent">
+        <h1 id='UserName'></h1>
+
+
+        <div id="NewTask">
+            <button id='AddNewTaskButton'>Add New</button>
+            <div id='AddNewTaskForm'>
+                <input id="TaskTitle" value=""></br>
+                <textarea id="TaskContent"></textarea>
+                <button id='AddButton'>Add</button>
+                <button id='CancleButton'>Cancle</button>
+            </div>
+        </div>
+        <div id="SearchForm">
+            <input id="SearcingText" value="">
+            <button id='SearchByTextInTitleButton' onclick="SearchBy('Title')">Search in Title</button>
+            <button id='SearchByTextInContentButton'  onclick="SearchBy('Content')">Search in Content</button>
+            <button id='SeeAllTasksButton'>See All</button>
+        </div>
+        <div>
+            <h3 id="ResultHeader">Your tasks:</h3>
+        </div>
+    <div id='ResponseContent'></div>
+</div>
+    <script type="text/javascript" src="~/Scripts/TasksViewBehavior.js"></script>
+</body>
+</html>

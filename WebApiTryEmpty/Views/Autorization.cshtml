@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link rel="stylesheet" href="~/Views/TaskManagerStyle.css">
+    <script src="~/Scripts/jquery-3.1.1.js"></script>
+
+</head>
+<body>
+    <div id="LoginForm">
+        <div>Логин:</div><input type="text" id="Login" value=""></br>
+        <div>Пароль:</div><input type="text" id="Password" value=""></br>
+        <button id="Enter">Вход</button>
+        <button id="Registration">Регистрация</button>
+    </div>
+
+    <div id='RegistrationForm'>
+        <input type='text' id='RegistrationLogin' value=''><label id="LoginStatus">Нужно придумать логин</label></br>
+        <input type='text' id='RegistrationPassword' value=''><label id="PasswordStatus">Нужно придумать пароль</label></br>
+        <input type='text' id='RegistrationName' value=''><label id="NameStatus">Нужно придумать имя</label></br>
+        <button id='RegistrationButton'>Регистрация</button>
+        <button id='CancleRegistrationButton'>Отмена</button>
+    </div>
+
+
+    <script src="~/Scripts/AutorizationViewBehavior.js"></script>
+</body>
+</html>
